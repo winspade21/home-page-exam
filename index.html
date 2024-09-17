@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static E-Commerce Site</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">MJDC Bundle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- Hero Section -->
+<section id="hero" class="text-center p-5">
+  <div class="container">
+    <h1 class="text-white">Welcome to Our Store</h1>
+    <p class="text-white">Find the best products at unbeatable prices.</p>
+    <a href="#shop" class="btn btn-primary mt-4" aria-label="Shop Now">Shop Now</a>
+  </div>
+</section>
+
+  <!-- Carousel -->
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/gun1.jpg" class="d-block w-100" alt="Bulldog">
+            </div>
+            <div class="carousel-item">
+              <img src="image/gun2.jpg" class="d-block w-100" alt="Champion">
+            </div>
+            <div class="carousel-item">
+              <img src="image/gun3.jpg" class="d-block w-100" alt="Kuronami">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="carousel-description" >
+          <h3>Why choose this gun?
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit explicabo, aspernatur, perferendis impedit dignissimos est asperiores, minima nam provident iusto quibusdam deleniti aliquam praesentium similique earum vero quo deserunt laudantium. Earum cum reiciendis, quasi nemo eveniet tenetur dolorem minus dolores facere nostrum debitis vitae dolore nesciunt mollitia facilis quibusdam expedita.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Heading -->
+  <div class="container text-center mt-5 text-white">
+    <h2>Featured Products</h2>
+  </div>
+
+  <!-- Cards -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/karambit.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Karambit</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut hic repellendus corrupti quia itaque est alias molestias, doloribus harum.</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/ion.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Ion Phantom</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt similique pariatur placeat at! Officiis molestiae natus, quasi quae ipsam obcaecati.</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image/chronovoid.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Chronovoid</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi asperiores cupiditate repudiandae ut unde molestias sint doloremque illo aliquid eaque?
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-light text-center p-3 mt-3">
+    <p>&copy; 2024 E-Commerce Site. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
